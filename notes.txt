@@ -15,3 +15,9 @@ What should be in this starter kit?
 * automated build
 * automated deployment
 * working example app
+
+*********************************
+
+editor config- visit editorconfig.org to check if editor has built-in support, may need to download plugin
+
+Package Manager- there are more besides npm! Bower, JSPM, Jam, volo
