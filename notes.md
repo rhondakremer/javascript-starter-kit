@@ -47,3 +47,23 @@ Elm: compiles down to JS, clean syntax, immutable data structures, friendly erro
 Babel: two methods for configuration, .babelrc (not npm specific) or package.json
 
 transpile for your environment
+
+## Bundling
+npm packages use CommonJS pattern... good for Node, doesn't work in browsers
+Bundle npm packages into a format browsers can consume
+may use bundlers to package js into one file, or portioned files... ie not just for browsers
+
+5 module formats: 
+1) IIFE 
+2) Asynchronous Module Definition (AMD) 
+3) CommonJS (CJS)
+4) Universal Module Definition (UMD)
+5) * ES6 Modules *
+
+Why use ES6 Modules?
+standardized, statically analyzable, named imports, default exports, easy to read
+
+good options: browserify (the original), webpack (more than just js- css, images, html), rollup (first bundler to use tree shaking, faster loading production code), jspm (uses SystemJS, can load modules at runtime)
+
+Webpack- bundle splitting so users don't have to load all js upfront
+hot module reloading
