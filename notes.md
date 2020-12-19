@@ -39,3 +39,11 @@ sharing work in progress: localtunnel, ngroc, surge, now
 npm-run-all --parallel
 
 ## Transpiling
+Babel, Typescript, Elm
+Typescript: enhance autocomplete, enhanced readability, safer refactoring, additional non-standard features
+Babel: write standard JS, leverage full JS ecosystem, use experimental features earlier, no type defs or annotations required, ES6 imports statically analyzable
+Elm: compiles down to JS, clean syntax, immutable data structures, friendly errors, all errors are compile-time, can write with JS
+
+Babel: two methods for configuration, .babelrc (not npm specific) or package.json
+
+transpile for your environment
