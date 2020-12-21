@@ -67,3 +67,29 @@ good options: browserify (the original), webpack (more than just js- css, images
 
 Webpack- bundle splitting so users don't have to load all js upfront
 hot module reloading
+
+## Testing & CI
+Decisions!
+### Framework
+Mocha *
+Jasmine- includes built-in assertion lib
+Tape
+QUnit
+AVA
+Jest
+
+### Assertion Library
+Chai popular but there are others
+
+### Helper Libraries
+JSDom- simulates DOM without using browser
+Cheerio- jQuery for the server
+
+### Where to run tests
+browser- karma, testem
+headless browser- phantomjs
+in-memory DOM- JSDOM
+
+### Where to place test files
+folder called tests
+### When to run tests

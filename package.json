@@ -6,7 +6,9 @@
 		"prestart": "babel-node buildScripts/startMessage.js",
 		"start": "babel-node buildScripts/srcServer.js",
 		"localtunnel": "npx localtunnel --port 3000",
-		"share": "npm-run-all --parallel start localtunnel"
+		"share": "npm-run-all --parallel start localtunnel",
+		"test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
+		"test:watch": "npm run test -- --watch"
 	},
 	"author": "Cory House",
 	"license": "MIT",
