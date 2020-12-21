@@ -93,3 +93,7 @@ in-memory DOM- JSDOM
 ### Where to place test files
 folder called tests
 ### When to run tests
+
+CI servers- Travis, Appveyor, Jenkins, circleci, semaphore, snapci
+
+Travis- can be integrated with github
